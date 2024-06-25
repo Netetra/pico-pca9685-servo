@@ -8,8 +8,6 @@ use bsp::hal::{
     sio::Sio,
     watchdog::Watchdog,
 };
-
-use defmt::*;
 use defmt_rtt as _;
 use panic_probe as _;
 use pwm_pca9685::{Address, Channel, Pca9685};
